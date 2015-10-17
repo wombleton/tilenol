@@ -1,0 +1,27 @@
+{
+  "name": "tilenol",
+  "version": "0.0.1",
+  "description": "Take an image, tile it, and run a callback for each tile.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wombleton/tilenol"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "image",
+    "images",
+    "tile",
+    "aws",
+    "slice"
+  ],
+  "author": "Rowan Crawford <wombleton@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "gm": "^1.18.1",
+    "request": "^2.61.0"
+  }
+}
